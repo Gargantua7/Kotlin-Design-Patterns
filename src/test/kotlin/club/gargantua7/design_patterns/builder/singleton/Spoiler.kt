@@ -29,8 +29,8 @@ class Spoiler {
 
     private fun <T> io(origin: T): T {
         val out = ByteArrayOutputStream()
-        ObjectOutputStream(out).writeObject(origin)
-        return ObjectInputStream(ByteArrayInputStream(out.toByteArray())).readObject() as T
+        ObjectOutputStream(out).use { it.writeObject(origin) }
+        return ObjectInputStream(ByteArrayInputStream(out.toByteArray())).use { it.readObject() } as T
     }
 
     /**
