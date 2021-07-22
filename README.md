@@ -5,4 +5,7 @@
 
 + 创建型设计模式
   + [单例模式](books/builder/singleton)
+  + [工厂模式](books/builder/factory)
+  + [原型模式](books/builder/prototype/Prototype.md)
+  + [建造者模式](books/builder/builder/Builder.md)
 

@@ -15,12 +15,14 @@
 ```kotlin
 private fun <T> attack(origin: T): T {
     val out = ByteArrayOutputStream()
-    ObjectOutputStream(out).writeObject(origin)
-    val new = ObjectInputStream(ByteArrayInputStream(out.toByteArray())).readObject() as T
+    ObjectOutputStream(out).use { it.writeObject(origin) }
+    val new = ObjectInputStream(ByteArrayInputStream(out.toByteArray())).use { readObject() } as T
     println(origin == new)
     return new
 }
 ```
+
+> use方法：[习惯用法 - Java7的try with resources](https://www.kotlincn.net/docs/reference/idioms.html#java-7-%E7%9A%84-try-with-resources)
 
 将单例对象序列化为字节流再反序列化为对象，并强转为单例类的类型
 
@@ -101,7 +103,7 @@ private fun <T> reflect(origin: T): T {
 println(Hungry::class.constructors.size) // 0
 ```
 
-可知，Kotlin Object方法在Kotlin反射中是没有构造参数的，所以我们无法实例化出一个新的对象破坏单例模式。
+可知，Kotlin Object方法在Kotlin反射中是没有构造器的，所以我们无法实例化出一个新的对象破坏单例模式。
 
 
 
