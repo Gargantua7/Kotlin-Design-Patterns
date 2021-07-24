@@ -40,3 +40,11 @@ object JDKProxy {
         }
     }
 }
+
+//fun main() {
+//    System.getProperties()["sun.misc.ProxyGenerator.saveGeneratedFiles"] = "true"
+//    JDKProxy.JDKProxy(JDKProxy.RealSubject()).apply {
+//        println(this)
+//        request()
+//    }
+//}

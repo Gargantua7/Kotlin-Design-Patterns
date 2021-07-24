@@ -1,5 +1,6 @@
 package club.gargantua7.design_patterns.graphic.proxy
 
+import net.sf.cglib.core.DebuggingClassWriter
 import net.sf.cglib.proxy.Enhancer
 import net.sf.cglib.proxy.MethodInterceptor
 import net.sf.cglib.proxy.MethodProxy
@@ -27,10 +28,10 @@ object CGLIBProxy {
             enhancer.setSuperclass(RealSubject::class.java)
             // 设置回调
             enhancer.setCallback(
-                MethodInterceptor { _: Any, method: Method, _: Array<Any>, _: MethodProxy ->
+                MethodInterceptor { _: Any, _: Method, args: Array<Any>, method: MethodProxy ->
                     before()
                     println("CGLIB Proxy is working")
-                    val res = method.invoke(subject)
+                    val res = method.invoke(subject, args)
                     after()
                     return@MethodInterceptor res
             })
@@ -46,3 +47,8 @@ object CGLIBProxy {
         }
     }
 }
+
+//fun main() {
+//    System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY, "")
+//    CGLIBProxy.CGLIBProxy(CGLIBProxy.RealSubject()).request()
+//}
