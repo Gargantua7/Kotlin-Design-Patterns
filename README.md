@@ -8,4 +8,7 @@
   + [工厂模式](books/builder/factory)
   + [原型模式](books/builder/prototype/Prototype.md)
   + [建造者模式](books/builder/builder/Builder.md)
+  
++ 结构型设计模式
+  + [代理模式](books/graphic/proxy/Proxy.md)
 
