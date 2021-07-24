@@ -83,7 +83,9 @@ Proxy(RealSubject()).request()
 运行结果：
 
 > called before request
+> 
 > **Real Subject is requesting**
+> 
 > called after request
 
 可见在实际业务逻辑执行前后进行了通知
@@ -166,7 +168,9 @@ KotlinDelegate(RealSubject()).request()
 添加前后通知则为以下结果
 
 > called before request
+> 
 > **Real Subject is requesting**
+> 
 > called after request
 
 
@@ -303,8 +307,11 @@ JDKProxy(RealSubject()).request()
 也是直接调用，在外部调用并没有什么区别，结果如下
 
 > called before request
+> 
 > **JDK Proxy is working**
+> 
 > **Real Subject is requested**
+> 
 > called after request
 
 
@@ -407,8 +414,11 @@ CGLIBProxy(RealSubject()).request()
 结果如下
 
 > called before request
+> 
 > **CGLIB Proxy is working**
+> 
 > **Real Subject is requesting**
+> 
 > called after request
 
 
