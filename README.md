@@ -11,4 +11,5 @@
   
 + 结构型设计模式
   + [代理模式](books/graphic/proxy/Proxy.md)
+  + [适配器模式](books/graphic/adapter/Adapter.md)
 
