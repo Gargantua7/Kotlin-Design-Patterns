@@ -18,4 +18,9 @@ class Client {
     fun multiLayerTest() {
         ConcreteDecoratorA(ConcreteDecoratorB(ConcreteComponent())).request()
     }
+
+    @Test
+    fun delegateDecorator() {
+        DelegateDecorator(ConcreteComponent()).request()
+    }
 }

@@ -114,6 +114,37 @@ ConcreteDecoratorA(ConcreteDecoratorB(ConcreteComponent())).request()
 
 
 
+## 装饰器模式在 Kotlin 上的特别实现
+
+### 装饰器模式使用  Kotlin 类委托实现
+
+> [委托](https://www.kotlincn.net/docs/reference/delegation.html) - Kotlin 语言中文站
+
+```kotlin
+class DelegateDecorator(private val component: AbstractComponent) : AbstractComponent by component {
+
+    override fun request() {
+        println("Delegate Decorator is Requested")
+        component.request()
+    }
+}
+```
+
+
+
+### 装饰器模式使用 Kotlin 扩展方法实现
+
+> [扩展](https://www.kotlincn.net/docs/reference/extensions.html) - Kotlin 语言中文站
+
+```kotlin
+fun AbstractComponent.extensionRequest() {
+    println("Extension Decorator is requested")
+    request()
+}
+```
+
+
+
 ## 装饰器模式和代理模式的区别
 
 装饰器模式在于增加被装饰对象的功能
