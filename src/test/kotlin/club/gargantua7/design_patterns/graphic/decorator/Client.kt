@@ -1,0 +1,21 @@
+package club.gargantua7.design_patterns.graphic.decorator
+
+import kotlin.test.Test
+
+/**
+ * @author Gargantua丶
+ **/
+class Client {
+
+    @Test
+    fun decoratorTest() {
+        val concreteComponent = ConcreteComponent()
+        ConcreteDecoratorA(concreteComponent).request()
+        ConcreteDecoratorB(concreteComponent).request()
+    }
+
+    @Test
+    fun multiLayerTest() {
+        ConcreteDecoratorA(ConcreteDecoratorB(ConcreteComponent())).request()
+    }
+}
