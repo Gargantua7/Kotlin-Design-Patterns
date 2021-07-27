@@ -13,4 +13,5 @@
   + [代理模式](books/graphic/proxy/Proxy.md)
   + [适配器模式](books/graphic/adapter/Adapter.md)
   + [装饰者模式](books/graphic/decorator/Decorator.md)
+  + [桥接模式](books/graphic/bridge/Bridge.md)
 
