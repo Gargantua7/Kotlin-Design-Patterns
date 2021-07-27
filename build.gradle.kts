@@ -14,13 +14,14 @@ repositories {
 }
 
 dependencies {
-    implementation(kotlin("reflect"))
+    implementation("org.jetbrains.kotlin:kotlin-reflect:1.5.21")
     implementation("cglib:cglib:3.3.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.2")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.7.2")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:1.4.21")
-    testImplementation(kotlin("test"))
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:1.5.21")
+    testImplementation("org.jetbrains.kotlin:kotlin-test:1.5.21")
 }
 
 tasks.test {
