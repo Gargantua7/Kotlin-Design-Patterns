@@ -15,4 +15,5 @@
   + [装饰者模式](books/graphic/decorator/Decorator.md)
   + [桥接模式](books/graphic/bridge/Bridge.md)
   + [门面模式](books/graphic/facade/Facade.md)
+  + [组合模式](books/graphic/composite/Composite.md)
 
