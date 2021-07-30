@@ -1,6 +1,6 @@
 # Kotlin 设计模式
 
-![Language](https://img.shields.io/badge/Language-Kotlin-blue?style=for-the-badge) ![Kotlin Version](https://img.shields.io/badge/Kotlin%20Version-1.4.21-yellow?style=for-the-badge) 
+![Language](https://img.shields.io/badge/Language-Kotlin-blue?style=for-the-badge) ![Kotlin Version](https://img.shields.io/badge/Kotlin%20Version-1.5.21-yellow?style=for-the-badge) 
 
 
 + 创建型设计模式
