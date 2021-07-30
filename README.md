@@ -16,4 +16,5 @@
   + [桥接模式](books/graphic/bridge/Bridge.md)
   + [门面模式](books/graphic/facade/Facade.md)
   + [组合模式](books/graphic/composite/Composite.md)
+  + [享元模式](books/graphic/flyweight/Flyweight.md)
 
