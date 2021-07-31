@@ -18,3 +18,5 @@
   + [组合模式](books/structural/composite/Composite.md)
   + [享元模式](books/structural/flyweight/Flyweight.md)
 
++ 行为型设计模式
+  + [模板方法模式](books/behavioral/template/TemplateMethod.md) 
