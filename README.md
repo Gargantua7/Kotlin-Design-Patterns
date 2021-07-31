@@ -4,10 +4,10 @@
 
 
 + 创建型设计模式
-  + [单例模式](books/builder/singleton)
-  + [工厂模式](books/builder/factory)
-  + [原型模式](books/builder/prototype/Prototype.md)
-  + [建造者模式](books/builder/builder/Builder.md)
+  + [单例模式](books/creational/singleton)
+  + [工厂模式](books/creational/factory)
+  + [原型模式](books/creational/prototype/Prototype.md)
+  + [建造者模式](books/creational/builder/Builder.md)
   
 + 结构型设计模式
   + [代理模式](books/structural/proxy/Proxy.md)
