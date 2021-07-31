@@ -10,11 +10,11 @@
   + [建造者模式](books/builder/builder/Builder.md)
   
 + 结构型设计模式
-  + [代理模式](books/graphic/proxy/Proxy.md)
-  + [适配器模式](books/graphic/adapter/Adapter.md)
-  + [装饰者模式](books/graphic/decorator/Decorator.md)
-  + [桥接模式](books/graphic/bridge/Bridge.md)
-  + [门面模式](books/graphic/facade/Facade.md)
-  + [组合模式](books/graphic/composite/Composite.md)
-  + [享元模式](books/graphic/flyweight/Flyweight.md)
+  + [代理模式](books/structural/proxy/Proxy.md)
+  + [适配器模式](books/structural/adapter/Adapter.md)
+  + [装饰者模式](books/structural/decorator/Decorator.md)
+  + [桥接模式](books/structural/bridge/Bridge.md)
+  + [门面模式](books/structural/facade/Facade.md)
+  + [组合模式](books/structural/composite/Composite.md)
+  + [享元模式](books/structural/flyweight/Flyweight.md)
 
