@@ -21,3 +21,4 @@
 + 行为型设计模式
   + [模板方法模式](books/behavioral/template/TemplateMethod.md)
   + [策略模式](books/behavioral/strategy/Strategy.md)
+  + [命令模式](books/behavioral/command/Command.md)
