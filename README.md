@@ -23,3 +23,4 @@
   + [策略模式](books/behavioral/strategy/Strategy.md)
   + [命令模式](books/behavioral/command/Command.md)
   + [责任链模式](books/behavioral/chain/Chain.md)
+  + [状态模式](books/behavioral/state/State.md)
