@@ -286,12 +286,15 @@ var valueByObserver by Delegates.observable(0) { _, _, newValue ->
   + 松耦合符合依赖倒置原则
   + 分离了观察者和被观察者，并建立了一套触发机制，使得数据变化可以相应到多个表示层
   + 实现了一对多的通信机制
-+ 缺点
++ **缺点**
   + 观察者较多时性能较差
   + 事件通知为线性关系，如果一个观察者中处理较久会影响后续观察者
   + 如果存在依赖循环会导致系统崩溃
 
 ***
-
+> 以下链接请在 GitHub 中使用
+>
+> GitHub Pages请点击页面最上方的 "View on GitHub"
+>
 > + [具体业务源代码](../../../src/main/kotlin/club/gargantua7/design_patterns/behavioral/observer)
 > + [测试用例源代码](../../../src/test/kotlin/club/gargantua7/design_patterns/behavioral/observer)
