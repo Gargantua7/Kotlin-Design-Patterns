@@ -25,3 +25,4 @@
   + [责任链模式](books/behavioral/chain/Chain.md)
   + [状态模式](books/behavioral/state/State.md)
   + [观察者模式](books/behavioral/observer/Observer.md)
+  + [中介者模式](books/behavioral/mediator/Mediator.md)
