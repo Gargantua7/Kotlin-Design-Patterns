@@ -26,3 +26,4 @@
   + [状态模式](books/behavioral/state/State.md)
   + [观察者模式](books/behavioral/observer/Observer.md)
   + [中介者模式](books/behavioral/mediator/Mediator.md)
+  + [迭代器模式](books/behavioral/iterator/Iterator.md)
