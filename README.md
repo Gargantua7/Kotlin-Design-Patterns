@@ -27,3 +27,4 @@
   + [观察者模式](books/behavioral/observer/Observer.md)
   + [中介者模式](books/behavioral/mediator/Mediator.md)
   + [迭代器模式](books/behavioral/iterator/Iterator.md)
+  + [访问者模式](books/behavioral/visitor/Visitor.md)
