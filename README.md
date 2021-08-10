@@ -28,3 +28,4 @@
   + [中介者模式](books/behavioral/mediator/Mediator.md)
   + [迭代器模式](books/behavioral/iterator/Iterator.md)
   + [访问者模式](books/behavioral/visitor/Visitor.md)
+  + [备忘录模式](books/behavioral/memento/Memento.md)
