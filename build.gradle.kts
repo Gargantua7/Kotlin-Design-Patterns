@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.5.21"
+    kotlin("jvm") version "1.5.31"
 }
 
 group = "club.gargantua7"
@@ -17,8 +17,8 @@ dependencies {
     implementation(kotlin("reflect"))
     implementation("cglib:cglib:3.3.0")
 
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.2")
-    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.7.2")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.0")
+    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.8.0")
     testImplementation(kotlin("test"))
     testImplementation(kotlin("test-junit5"))
 }
