@@ -17,8 +17,8 @@ dependencies {
     implementation(kotlin("reflect"))
     implementation("cglib:cglib:3.3.0")
 
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.0")
-    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.8.0")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.1")
+    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.8.1")
     testImplementation(kotlin("test"))
     testImplementation(kotlin("test-junit5"))
 }
